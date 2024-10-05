@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import PropTypes from 'prop-types'; // Import PropTypes
 
 export default function LandingPage({ onLevelSelect }) {
   const [selectedLevel, setSelectedLevel] = useState(null);
@@ -67,3 +68,8 @@ export default function LandingPage({ onLevelSelect }) {
     </main>
   );
 }
+
+// Define PropTypes for the component
+LandingPage.propTypes = {
+  onLevelSelect: PropTypes.func.isRequired, // Require the onLevelSelect prop to be a function
+};
