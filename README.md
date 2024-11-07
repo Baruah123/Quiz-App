@@ -1,6 +1,6 @@
-# Quiz App
+# Quiz App 
 
-Welcome to the **Quiz App**, a fun and interactive way to test your knowledge on various topics! This web application allows users to select their preferred difficulty level and take quizzes with engaging questions.
+Welcome to the **Quiz App**, a fun and great interactive way to test your knowledge on various topics! This web application allows users to select their preferred difficulty level and take quizzes with engaging questions.
 
 ## Table of Contents
 
